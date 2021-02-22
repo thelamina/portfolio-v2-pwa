@@ -8,9 +8,19 @@ const SkillsContainer = () => {
 	return (
 		<Skill>
 			<Skill.Pitch>
-				I’m a front-end engineer with loads of experience. I work with
-				agencies across the globe to create high performance & rich
-				interactive websites that work across all platforms & devices.
+				<Skill.Pitch.Text>
+					I’m a front-end engineer with loads of experience. I work
+					with agencies across the globe to create high performance &
+					rich interactive websites that work across all platforms &
+					devices.
+				</Skill.Pitch.Text>
+				<Skill.Pitch.Link
+					href='https://drive.google.com/file/d/1kaWlG19JqjMz8xCjVGjkyr6hPPIGPaMe/view'
+					target='_blank'
+					rel='noreferrer'
+				>
+					My Resume
+				</Skill.Pitch.Link>
 			</Skill.Pitch>
 			<Skill.Main>
 				<Skill.Title>

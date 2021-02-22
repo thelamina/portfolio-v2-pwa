@@ -68,7 +68,14 @@ export const Description = styled(Paragraph2)`
 	color: #fff;
 	font-size: 22px;
 	line-height: 36px;
+	padding-bottom: 16px;
 `;
+
+export const Link = styled.a`
+	color: #808080;
+	font-size: 18px;
+`;
+
 export const Stack = styled(Paragraph2)`
 	display: inline-block;
 	color: #000;

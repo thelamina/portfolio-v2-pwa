@@ -7,6 +7,7 @@ import {
 	Title,
 	Description,
 	ListItem,
+	Link,
 	List,
 	ListGroup,
 } from './styles';
@@ -28,11 +29,15 @@ const Skill = ({ children, ...restProps }) => {
 };
 
 Skill.Pitch = ({ children, ...restProps }) => {
-	return (
-		<Pitch {...restProps}>
-			<Description>{children}</Description>
-		</Pitch>
-	);
+	return <Pitch {...restProps}>{children}</Pitch>;
+};
+
+Skill.Pitch.Text = ({ children, ...restProps }) => {
+	return <Description {...restProps}>{children}</Description>;
+};
+
+Skill.Pitch.Link = ({ children, ...restProps }) => {
+	return <Link {...restProps}>{children}</Link>;
 };
 
 Skill.Main = ({ children, ...restProps }) => {
