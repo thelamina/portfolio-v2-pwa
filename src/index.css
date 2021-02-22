@@ -1,13 +1,82 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* width */
+*::-webkit-scrollbar {
+	width: 0px;
+	height: 0px;
+}
+
+/* Track */
+*::-webkit-scrollbar-track {
+	/* box-shadow: 0 0 1px 1px #d3d3d3; */
+	opacity: 0;
+	border-radius: 2px;
+}
+
+/* Handle */
+*::-webkit-scrollbar-thumb {
+	background: transparent;
+	border-radius: 10px;
+	transition: all 0.2s !important;
+	opacity: 0 !important;
+}
+
+/* Handle on hover */
+*::-webkit-scrollbar-thumb:hover {
+	background: transparent;
+}
+
+body {
+	margin: 0;
+	font-family: 'MuseoSansLight', 'Gill Sans', 'Gill Sans MT', Calibri,
+		'Trebuchet MS', sans-serif;
+	/* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+		'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+		'Helvetica Neue', sans-serif; */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background-color: #1d1313;
+	/* overflow: hidden; */
+}
+
+@font-face {
+	font-family: 'MuseoSansLight';
+	src: url('./assets/fonts/MuseoSans_100.otf');
+	font-weight: 100;
+}
+
+@font-face {
+	font-family: 'MuseoSansRegular';
+	src: url('./assets/fonts/MuseoSans_300.otf');
+	font-weight: 300;
+}
+
+@font-face {
+	font-family: 'MuseoSansMedium';
+	src: url('./assets/fonts/MuseoSans_500.otf');
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: 'MuseoSansBold';
+	src: url('./assets/fonts/MuseoSans_700.otf');
+	/* font-weight: 700; */
+}
+
+a.active {
+	position: relative;
+}
+
+a.active::after {
+	content: '';
+	position: absolute;
+	top: 55%;
+	left: -10%;
+	height: 1px;
+	width: 60px;
+	background-color: #fff;
 }
