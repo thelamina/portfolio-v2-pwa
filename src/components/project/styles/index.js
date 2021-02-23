@@ -7,7 +7,7 @@ import { FONTS, COLORS } from '../../../constants';
 export const Container = styled(motion.div)`
 	color: #fff;
 	flex-basis: 80%;
-	height: 100%;
+	min-height: 101vh;
 	padding-top: 40px;
 	padding-bottom: 40px;
 	width: 100%;

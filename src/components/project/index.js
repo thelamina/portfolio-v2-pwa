@@ -54,7 +54,7 @@ Project.Controls = ({ next, previous, showAll, ...restProps }) => {
 						<path
 							d='M1 8L7.48629 2L13 8'
 							stroke='#B0B0B0'
-							stroke-width='2'
+							strokeWidth='2'
 						/>
 					</svg>
 				}
@@ -73,7 +73,7 @@ Project.Controls = ({ next, previous, showAll, ...restProps }) => {
 						<path
 							d='M1 0.999998L7.48629 7L13 1'
 							stroke='#B0B0B0'
-							stroke-width='2'
+							strokeWidth='2'
 						/>
 					</svg>
 				}
