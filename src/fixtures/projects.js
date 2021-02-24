@@ -8,7 +8,7 @@ const projects = [
 			'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti totam repudiandae iusto nostrum voluptas unde ducimus deserunt accusamus neque non.',
 
 		url: 'https://shoppys.netlify.app/',
-		image: IMAGES.pic1,
+		image: IMAGES.movies,
 		icon: ICONS.logo,
 		stack: ['React.js', 'Redux'],
 	},
@@ -18,7 +18,7 @@ const projects = [
 		description:
 			'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti totam repudiandae iusto nostrum voluptas unde ducimus deserunt accusamus neque non.',
 		url: 'https://smarttrivia.now.sh/',
-		image: IMAGES.pic1,
+		image: IMAGES.quiz,
 		icon: ICONS.logo,
 		stack: ['JavaScript', 'CSS'],
 	},
@@ -28,7 +28,7 @@ const projects = [
 		description:
 			'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti totam repudiandae iusto nostrum voluptas unde ducimus deserunt accusamus neque non.',
 		url: 'https://cakies-test.netlify.app/',
-		image: IMAGES.pic1,
+		image: IMAGES.cakes,
 		icon: ICONS.logo,
 		stack: ['React.js', 'Material UI'],
 	},
@@ -38,7 +38,7 @@ const projects = [
 		description:
 			'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti totam repudiandae iusto nostrum voluptas unde ducimus deserunt accusamus neque non.',
 		url: 'https://mycurrency-rates.herokuapp.com/',
-		image: IMAGES.pic1,
+		image: IMAGES.currency,
 		icon: ICONS.logo,
 		stack: ['Node.js', 'CSS'],
 	},
