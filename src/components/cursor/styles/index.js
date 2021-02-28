@@ -19,9 +19,10 @@ const cursorAnim2 = keyframes`
 `;
 
 export const Container = styled.div`
-	// z-index: 0;
-	width: 30px;
-	height: 30px;
+	z-index: 999;
+	pointer-events: none;
+	width: 36px;
+	height: 36px;
 	border: 1px solid #fff;
 	border-radius: 50%;
 	position: absolute;
@@ -31,8 +32,8 @@ export const Container = styled.div`
 
 	&::after {
 		content: '';
-		width: 30px;
-		height: 30px;
+		width: 36px;
+		height: 36px;
 		position: absolute;
 		border: 8px solid gray;
 		border-radius: 50%;
@@ -42,7 +43,7 @@ export const Container = styled.div`
 		animation: ${cursorAnim2} 0.5s infinite alternate;
 	}
 
-	@media (max-width: 600px) {
+	@media (max-width: 700px) {
 		display: none;
 	}
 `;

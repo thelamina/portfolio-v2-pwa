@@ -31,7 +31,11 @@ const SkillsContainer = () => {
 						{Skills.map((data, i) => (
 							<li key={data.key}>
 								<Skill.ListGroup.Title
-									onClick={() => setActive(i)}
+									onClick={() =>
+										active === i
+											? setActive(null)
+											: setActive(i)
+									}
 								>
 									{data.title}
 								</Skill.ListGroup.Title>
