@@ -85,11 +85,13 @@ export const Stack = styled(Paragraph2)`
 	display: inline-block;
 	color: #000;
 	background: #fff;
+	font-weight: bold;
 	border-radius: 20px;
-	padding: 2px 14px;
+	padding: 0px 14px;
 	font-size: 12px;
 	text-transform: uppercase;
 	margin-right: 10px;
+	margin-bottom: 10px;
 `;
 export const Paging = styled.aside`
 	position: absolute;
@@ -150,12 +152,12 @@ export const ProjectListItem = styled(motion.li)`
 
 export const ProjectLink = styled(motion.a)`
 	position: relative;
-    display: inline-block;
-    height: 100%;
-    background: ${COLORS.black};
-    overflow: hidden;
-   width:100%;
-}`;
+	display: inline-block;
+	height: 100%;
+	background: ${COLORS.black};
+	overflow: hidden;
+	width: 100%;
+`;
 
 export const ProjectDetail = styled(motion.div)`
 	position: absolute;

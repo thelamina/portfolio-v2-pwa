@@ -10,7 +10,7 @@ const AboutContainer = () => {
 			<P>
 				I'm Itunu Lamina, a Software Engineer from Nigeria. I enjoy
 				creating things that works on the web, whether that be websites,
-				applications, or anything in between.
+				applications, or anything in between
 			</P>
 		</Background>
 	);
