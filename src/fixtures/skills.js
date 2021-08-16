@@ -2,7 +2,14 @@ const skills = [
 	{
 		key: 'p1',
 		title: 'Frontend',
-		list: ['JavaScript', 'React.js', 'Next.js', 'Vue', 'Redux, Recoil, Context API'],
+		list: [
+			'JavaScript',
+			'React.js',
+			'Next.js',
+			'React Native',
+			'Vue',
+			'Redux, Recoil, Context API',
+		],
 	},
 	{
 		key: 'p2',
@@ -12,7 +19,7 @@ const skills = [
 	{
 		key: 'p3',
 		title: 'Backend',
-		list: ['JavaScript', 'Node.js',],
+		list: ['JavaScript', 'Node.js'],
 	},
 	{
 		key: 'p4',
