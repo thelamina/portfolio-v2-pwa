@@ -17,10 +17,10 @@ const projects = [
 		title: 'Fly Cash',
 		description:
 			'FlyCash gives you the perfect customer experience with faster  instore payments, self-checkout and post-sales engagements.',
-		url: 'https://flycash.vercel.app/',
+		url: 'https://flycash.ng/',
 		image: IMAGES.flycash,
 		icon: ICONS.logo,
-		stack: ['React.js', 'Context API', 'Styled-components'],
+		stack: ['React.js', 'Styled-components', 'TailwindCSS'],
 	},
 	{
 		key: 'p3',
