@@ -15,7 +15,7 @@ const SkillsContainer = () => {
 					devices.
 				</Skill.Pitch.Text>
 				<Skill.Pitch.Link
-					href='https://drive.google.com/file/d/1kaWlG19JqjMz8xCjVGjkyr6hPPIGPaMe/view'
+					href={process.env.REACT_APP_RESUME_URL}
 					target='_blank'
 					rel='noreferrer'
 				>
