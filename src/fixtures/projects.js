@@ -3,14 +3,13 @@ import { IMAGES, ICONS } from '../constants';
 const projects = [
 	{
 		key: 'p1',
-		title: 'Sendchamp Developers',
+		title: 'Sendchamp',
 		description:
-			'Everything you need to get started with Sendchamp as a developer. Learn how you can send SMS, Whatsapp, Email, Voice Message To Your Customers in Africa. ',
-
-		url: 'https://developers.sendchamp.com',
+			'Simple Messaging Platform & APIs for SMS, Voice, Whatsapp, Email, USSD and Verification',
+		url: 'https://sendchamp.com',
 		image: IMAGES.sendchamp,
 		icon: ICONS.logo,
-		stack: ['Next.js', 'Chakra UI', 'Sanity'],
+		stack: ['React.js','Next.js', 'Chakra UI', 'Sanity'],
 	},
 	{
 		key: 'p2',
@@ -19,8 +18,8 @@ const projects = [
 			'FlyCash gives you the perfect customer experience with faster  instore payments, self-checkout and post-sales engagements.',
 		url: 'https://flycash.ng/',
 		image: IMAGES.flycash,
-		icon: ICONS.logo,
-		stack: ['React.js', 'Styled-components', 'TailwindCSS'],
+		icon: ICONS.flycash,
+		stack: ['React.js', 'React Native', 'Next.js', 'Styled-components', 'TailwindCSS'],
 	},
 	{
 		key: 'p3',
@@ -34,13 +33,13 @@ const projects = [
 	},
 	{
 		key: 'p4',
-		title: 'Currency Rates Application',
+		title: 'Coin For Barter',
 		description:
-			'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti totam repudiandae iusto nostrum voluptas unde ducimus deserunt accusamus neque non.',
-		url: 'https://mycurrency-rates.herokuapp.com/',
-		image: IMAGES.currency,
-		icon: ICONS.logo,
-		stack: ['Node.js', 'CSS'],
+			'A solution that makes it easier to accept payment in cryptocurrencies. Developers’ friendly with open APIs and SDKs for sweet integration.',
+		url: 'https://coinforbarter.com/',
+		image: IMAGES.c4b,
+		icon: ICONS.c4b,
+		stack: ['React.js', 'Next.js', 'Styled-components', 'TailwindCSS'],
 	},
 ];
 

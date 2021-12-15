@@ -6,6 +6,7 @@ import quiz from '../assets/images/quiz.jpg';
 import sendchamp from '../assets/images/sendchamp.png';
 import flycash from '../assets/images/flycash.png';
 import sambe from '../assets/images/sambe.jpeg';
+import c4b from '../assets/images/coinforbarter.png';
 
 const images = {
 	pic1,
@@ -16,5 +17,6 @@ const images = {
 	sendchamp,
 	flycash,
 	sambe,
+	c4b,
 };
 export default images;

@@ -10,7 +10,7 @@ const SkillsContainer = () => {
 			<Skill.Pitch>
 				<Skill.Pitch.Text>
 					I’m a front-end engineer with loads of experience. I work
-					with agencies across the globe to create high performance &
+					with teams across the globe to create high performance &
 					rich interactive websites that work across all platforms &
 					devices.
 				</Skill.Pitch.Text>

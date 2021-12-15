@@ -3,12 +3,13 @@ const skills = [
 		key: 'p1',
 		title: 'Frontend',
 		list: [
-			'JavaScript',
 			'React.js',
 			'Next.js',
 			'React Native',
-			'Vue',
-			'Redux, Recoil, Context API',
+			'JavaScript',
+			'CSS',
+			'HTML',
+			'Sass',
 		],
 	},
 	{
@@ -23,8 +24,15 @@ const skills = [
 	},
 	{
 		key: 'p4',
-		title: 'Miscellanous',
-		list: ['TypeScript', 'GraphQL', 'Headless CMS'],
+		title: 'Others',
+		list: [
+			'TypeScript',
+			'GraphQL',
+			'Styled Components',
+			'Git',
+			'Firebase',
+			'AWS',
+		],
 	},
 ];
 

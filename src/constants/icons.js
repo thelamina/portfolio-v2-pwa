@@ -1,4 +1,7 @@
 import logo from '../assets/icons/heart.svg';
+import c4b from '../assets/icons/c4b.svg';
+import flycash from '../assets/icons/flycash.svg';
+import sendchamp from '../assets/icons/sendchamp.png';
 import { motion } from 'framer-motion';
 
 const svgVariants = {
@@ -124,6 +127,6 @@ const linkedin = (
 	</motion.svg>
 );
 
-const icons = { logo, twitter, facebook, linkedin, github };
+const icons = { logo, twitter, facebook, linkedin, github, c4b, flycash , sendchamp};
 
 export default icons;
