@@ -28,8 +28,6 @@ const skills = [
 		list: [
 			'TypeScript',
 			'GraphQL',
-			'Styled Components',
-			'Git',
 			'Firebase',
 			'AWS',
 		],
